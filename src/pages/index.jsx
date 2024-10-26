@@ -36,7 +36,7 @@ const Index = () => {
 
   // Function to handle content click
   const handleContentClick = (text,ref,images,title) => {
-    navigate('/home', { state: { text: text,ref:ref ,images:images,title:title} }); // Navigate to home with the content text
+    navigate('/articles', { state: { text: text,ref:ref ,images:images,title:title} }); // Navigate to home with the content text
   };
 
   return (
