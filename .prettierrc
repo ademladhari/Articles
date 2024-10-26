@@ -1,0 +1,29 @@
+{
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "tailwindConfig": "./tailwind.config.js",
+  "tailwindRawReorder.classOrder": [
+    "position",
+    "display",
+    "flex",
+    "grid",
+    "width",
+    "height",
+    "padding",
+    "margin",
+    "color",
+    "background",
+    "border",
+    "shadow",
+    "opacity",
+    "transition",
+    "transform",
+    "hover",
+    "focus"
+  ],
+  "tailwindRawReorder.enable": true  
+
+
+}
