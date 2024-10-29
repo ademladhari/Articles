@@ -1,3 +1,4 @@
+
 export const EmotionsText =`
 
     $154,201,673 in just the opening weekend. 4440 theaters showcasing it for an average of nine and a half weeks. Rank one in not only the domestic, but also the international and worldwide box office for digital animation movies.1 The immense success of Disney Pixar's new movie Inside Out 2 is indisputable. Diving deeper into the complexity of emotions with the young main character Riley going through puberty and experiencing new emotions, the animation studio once again managed to captivate countless people. And to no one's surprise. With focusing on a topic such as emotions, that we all have and experience, they obtained a broad audience of people that can relate and could be interested. We all experienced joy. We all experienced sadness. We all experienced anger, fear, disgust, anxiety, envy, etc. We all can relate and understand. But did they really do a good job in portraying something as complex as emotions? And what are emotions even?
@@ -194,6 +195,8 @@ Early Oligocene Epoch (34 million years ago)
       ]
     }
   ];
+  import insideout from "../assets/insideout.png"
+
 export const AntarcticaImages = [
     { id: 1, url: 'https://www.twofortheworld.com/wp-content/uploads/2017/07/Just-another-day-in-Antarctica-Header.jpg', alt: 'Red Image' },
     { id: 2, url: 'https://api.time.com/wp-content/uploads/2016/05/antarctica-glacier-melt.jpeg', alt: 'Green Image' },
@@ -201,9 +204,9 @@ export const AntarcticaImages = [
    
   ];
   export const EmotionsImages = [
-    { id: 1, url: 'https://www.twofortheworld.com/wp-content/uploads/2017/07/Just-another-day-in-Antarctica-Header.jpg', alt: 'Red Image' },
-    { id: 2, url: 'https://api.time.com/wp-content/uploads/2016/05/antarctica-glacier-melt.jpeg', alt: 'Green Image' },
-    { id: 3, url: 'https://scitechdaily.com/images/Ice-Sheet-Melting-Art-Concept.jpg', alt: 'Blue Image' },
+    { id: 1, url: insideout, alt: 'Red Image' },
+    { id: 2, url: 'https://i.redd.it/wewvj1kk7idd1.jpeg', alt: 'Green Image' },
+    { id: 3, url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtaB7Qun8CAqiLiXlMDQ3vrqa9vpkitkbvyw&s', alt: 'Blue Image' },
    
   ];
   export const TippingPointsImages = [

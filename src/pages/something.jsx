@@ -41,7 +41,7 @@ const EndlessScroll = ({images}) => {
           <img
             src={images[activeIndex].url}
             alt={images[activeIndex].alt}
-            className="h-full w-full rounded-lg bg-inherit"
+            className="h-full w-full rounded-lg bg-inherit overflow-hidden"
           />
         </div>
 
@@ -58,7 +58,7 @@ const EndlessScroll = ({images}) => {
       {/* Scroll Right Button */}
       <button
         onClick={() => handleScroll('right')}
-        className="absolute right-[-30%] z-20 flex h-[20px] w-[20px] justify-center rounded-lg bg-[#72B3A5] p-1 align-middle text-[1vh] text-white focus:outline-none sm:h-[35px] sm:w-[10%] md:right-[-25%] md:h-[30px] md:w-[30px] md:text-[2vh] lg:right-[-25%] lg:h-[40px] lg:w-[10%] lg:text-[2vh] xl:h-[50px] xl:w-[15%] xl:text-[2vh]"
+        className="absolute right-[-30%] z-20 items-center  flex h-[20px] w-[20px] justify-center rounded-lg bg-[#72B3A5] p-1 align-middle text-[1vh] text-white focus:outline-none sm:h-[35px] sm:w-[10%] md:right-[-25%] md:h-[30px] md:w-[30px] md:text-[2vh] lg:right-[-25%] lg:h-[40px] lg:w-[10%] lg:text-[2vh] xl:h-[50px] xl:w-[15%] xl:text-[2vh]"
       >
         →
       </button>
